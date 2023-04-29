@@ -13,7 +13,7 @@ URL = 'https://api.mrinsta.com/api'
 # CONFIGURE THIS
 TARGET = 'ablhraeu'
 DISCORD_LOG = False
-PASSWORD = getenv('PASSWORD', 'Poi890!!')
+PASSWORD = getenv('PASSWORD', '')
 class MrInsta:
     def __init__(self) -> None:
         message = f'[+] Target: {TARGET}'
